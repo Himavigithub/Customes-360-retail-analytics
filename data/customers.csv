@@ -1,0 +1,5 @@
+customer_id,age,gender,region,loyalty_score
+101,25,M,North,78
+102,34,F,South,55
+103,42,M,East,83
+104,29,F,West,65

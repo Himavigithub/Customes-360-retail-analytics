@@ -1,0 +1,6 @@
+order_id,date,product,category,price,quantity,region
+1,2024-01-05,Headphones,Electronics,50,2,North
+2,2024-01-06,Keyboard,Electronics,20,1,South
+3,2024-01-07,T-Shirt,Apparel,15,3,East
+4,2024-01-07,Shoes,Apparel,60,1,West
+5,2024-01-08,Mouse,Electronics,12,4,North
