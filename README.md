@@ -2,29 +2,36 @@
 
 ## 📌 Project Overview
 
-This project performs a **Customer 360 Retail Analysis** to understand customer behavior, product performance, and sales patterns using Python and Power BI.
+This project performs a **Customer 360 Retail Sales Analysis** to understand customer purchasing behavior, product performance, and sales trends using **Python and Power BI**.
 
-The objective is to transform raw retail transaction data into meaningful business insights that help organizations improve **customer retention, marketing strategies, and sales performance**.
+The goal of this project is to transform raw retail transaction data into meaningful insights that support **business decision making and sales strategy**.
 
 The analysis includes:
 
 • Customer Segmentation using RFM Analysis  
-• Customer Retention using Cohort Analysis  
+• Customer Retention Analysis using Cohort Analysis  
 • Product Association using Market Basket Analysis  
-• Sales Insights Visualization using Power BI  
+• Interactive Sales Dashboard using Power BI  
 
 ---
 
 # 📊 Dashboard Preview
 
-## Retail Sales Overview
-![Dashboard](images/dashboard_overview.png)
+## Retail Sales Overview Dashboard
+
+![Retail Sales Dashboard](dashboard/Retail_Sales_Analysis Dashboard.jpg)
+
+---
 
 ## Customer and Product Distribution
-![Customers](images/customer_distribution.png)
+
+![Customer Distribution](dashboard/Customer_Distribution Dashboard.jpg)
+
+---
 
 ## Pareto Sales Analysis
-![Pareto](images/pareto_analysis.png)
+
+![Pareto Analysis](dashboard/Pareto_sales_Analysis Dashboard.jpg)
 
 ---
 
@@ -34,11 +41,11 @@ The dataset contains retail transaction records including:
 
 - Customer ID
 - Invoice Date
-- Product Details
+- Product Category
 - Sales Amount
 - Order Information
 - Delivery Type
-- Region and Category
+- Region
 
 Total transactions analyzed: **~397,000**
 
@@ -46,7 +53,7 @@ Total transactions analyzed: **~397,000**
 
 # 🧠 Python Analysis
 
-Python was used to perform advanced customer and sales analysis.
+Python was used for advanced customer and sales analysis.
 
 ## 1️⃣ RFM Analysis (Customer Segmentation)
 
@@ -60,29 +67,29 @@ Customers were scored from **1–5** for each metric and grouped into segments s
 
 - Champions
 - Loyal Customers
-- At Risk
 - Recent Customers
+- At Risk
 - Hibernating
 
-This helps businesses identify **high-value customers and target them effectively.**
+This helps businesses identify **high-value customers and design targeted marketing strategies.**
 
 ---
 
 ## 2️⃣ Cohort Analysis (Customer Retention)
 
-Cohort analysis groups customers based on their **first purchase month** and tracks how many customers return in subsequent months.
+Cohort analysis groups customers based on their **first purchase month** and tracks their activity over time.
 
 This helps measure:
 
-- Customer retention
-- Customer lifetime engagement
-- Loyalty patterns
+• Customer retention  
+• Customer lifetime engagement  
+• Loyalty patterns  
 
 ---
 
 ## 3️⃣ Market Basket Analysis
 
-Market Basket Analysis identifies products that are frequently purchased together.
+Market Basket Analysis identifies products that customers frequently purchase together.
 
 The **Apriori algorithm** was used to generate association rules.
 
@@ -92,26 +99,26 @@ Product A → Product B
 
 Meaning customers who buy Product A are also likely to buy Product B.
 
-This helps businesses with:
+This helps businesses improve:
 
-- Product bundling
-- Cross-selling strategies
-- Recommendation systems
+• Cross-selling strategies  
+• Product bundling  
+• Recommendation systems  
 
 ---
 
 # 📈 Power BI Dashboard
 
-Power BI was used to build an interactive dashboard with key insights such as:
+Power BI was used to build an interactive dashboard showing:
 
 • Total Sales and Profit  
 • Sales by Category and Region  
-• Profit vs Sales Trend  
+• Profit vs Sales Trends  
 • Customer Distribution  
 • Delivery Performance  
 • Pareto Sales Analysis (80/20 Rule)
 
-These visualizations help stakeholders make **data-driven decisions**.
+These dashboards help businesses **monitor performance and make data-driven decisions**.
 
 ---
 
@@ -130,16 +137,16 @@ Power BI
 
 • A small number of product categories generate the majority of sales (Pareto principle).  
 • High-value customers contribute significantly to revenue.  
-• Customer retention drops after the first few months.  
+• Customer retention decreases after the first few months.  
 • Certain products are frequently purchased together.
 
-These insights help improve **marketing strategies and sales planning**.
+These insights help businesses improve **sales strategies and marketing decisions**.
 
 ---
 
 # 🚀 How to Run the Project
 
-1. Clone the repository
+1 Clone the repository
 
 ```
 git clone https://github.com/yourusername/customer-360-retail-analysis.git
@@ -157,26 +164,10 @@ pip install -r requirements.txt
 python rfm_engine.py
 ```
 
-4 Open the Power BI dashboard
+4 Open the Power BI dashboard file
 
 ```
 customer_360.pbix
 ```
-
-
-
-# 📌 Project Structure
-
-```
-customer-360-retail-analysis
-│
-├── postgres sql
-├── vscode
-├── data
-├── src
-├── dashboard
-├── requirements.txt
-
-
 
 Data Analytics | Python | Power BI | SQL
