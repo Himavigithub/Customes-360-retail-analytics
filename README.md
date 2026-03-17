@@ -189,6 +189,16 @@ Retail Dataset → Python Data Processing → PostgreSQL Database → Power BI D
 2. Customer analytics such as **RFM segmentation, Cohort Analysis, and Market Basket Analysis** are performed.
 3. The processed results are stored in a **PostgreSQL database**.
 4. **Power BI** connects to the database to create interactive dashboards for business insights.
+   
+  ### Project Pipeline
+
+Retail Dataset
+      ↓
+PostgreSQL Database
+      ↓
+Python Analytics (RFM, Cohort, Market Basket)
+      ↓
+Power BI Dashboard
 
 
 Data Analytics | Python | Power BI | SQL
