@@ -170,4 +170,25 @@ python rfm_engine.py
 customer_360.pbix
 ```
 
+# 📅 Weekly Project Progress
+
+Week 1 → Project Setup and Data Understanding  
+Week 2 → Data Cleaning and PostgreSQL Integration  
+Week 3 → Customer Analytics using Python (RFM, Cohort, Market Basket)  
+Week 4 → Power BI Dashboard Development  
+
+Detailed weekly progress can be found in the **progress folder**.
+
+## 🏗️ Project Architecture
+
+The project follows an end-to-end data analytics pipeline:
+
+Retail Dataset → Python Data Processing → PostgreSQL Database → Power BI Dashboard
+
+1. Raw retail transaction data is processed using **Python (Pandas)**.
+2. Customer analytics such as **RFM segmentation, Cohort Analysis, and Market Basket Analysis** are performed.
+3. The processed results are stored in a **PostgreSQL database**.
+4. **Power BI** connects to the database to create interactive dashboards for business insights.
+
+
 Data Analytics | Python | Power BI | SQL
