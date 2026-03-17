@@ -1,38 +1,45 @@
-# Week 3 – Customer Behavior Analysis
+# Week 3 – Customer Analytics Using Python
 
 ## Objective
-Perform customer analytics using Python to understand customer value and purchasing patterns.
+Analyze customer purchasing behavior using Python.
 
-## RFM Analysis
+## Techniques Implemented
 
-Customers were segmented based on:
+### RFM Analysis
+Customer segmentation based on:
 
-- Recency
-- Frequency
-- Monetary value
+- **Recency** – How recently a customer purchased
+- **Frequency** – Number of purchases
+- **Monetary** – Total spending
 
-RFM scores were calculated for each customer and customers were grouped into segments such as:
+Example calculation:
 
+
+rfm = df.groupby("customer_id").agg({
+"invoice_date": lambda x: (snapshot_date - x.max()).days,
+"customer_id": "count",
+"total_sales": "sum"
+})
+
+
+### Customer Segments
 - Champions
 - Loyal Customers
-- At Risk
 - Recent Customers
+- At Risk
 - Hibernating
 
-## Cohort Analysis
+### Cohort Analysis
+Performed cohort analysis to analyze **customer retention patterns over time**.
 
-Customers were grouped based on their first purchase month to analyze retention trends over time.
+### Market Basket Analysis
+Used **Apriori Algorithm** to identify frequently purchased product combinations.
 
-## Market Basket Analysis
+Example rule:
 
-The Apriori algorithm was used to identify frequently purchased product combinations.
 
-Example association rule:
+Product 20725 → Product 20726
 
-Product A → Product B
-
-This helps in identifying cross-selling opportunities.
 
 ## Outcome
-
-Customer insights generated and stored in PostgreSQL tables.
+Generated customer segmentation insights and product association rules.
