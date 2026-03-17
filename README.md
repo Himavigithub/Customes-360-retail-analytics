@@ -190,14 +190,14 @@ Retail Dataset → Python Data Processing → PostgreSQL Database → Power BI D
 3. The processed results are stored in a **PostgreSQL database**.
 4. **Power BI** connects to the database to create interactive dashboards for business insights.
    
-  ### Project Pipeline
+ ## Project Pipeline
 
-Retail Dataset
-      ↓
-PostgreSQL Database
-      ↓
-Python Analytics (RFM, Cohort, Market Basket)
-      ↓
+Retail Dataset  
+⬇  
+PostgreSQL Database  
+⬇  
+Python Analytics (RFM, Cohort, Market Basket Analysis)  
+⬇  
 Power BI Dashboard
 
 
