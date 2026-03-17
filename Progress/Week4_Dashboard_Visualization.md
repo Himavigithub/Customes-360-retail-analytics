@@ -1,29 +1,33 @@
-# Week 4 – Dashboard Development
+# Week 4 – Dashboard Development (Power BI)
 
 ## Objective
-Create interactive dashboards for visualizing retail sales and customer insights.
+Create interactive dashboards for retail sales analysis.
 
-## Power BI Dashboard
-
-Power BI was connected to PostgreSQL database to visualize the analysis results.
-
-The dashboard includes:
-
+## Dashboard Features
 - Total Sales
 - Total Profit
-- Profit vs Sales Trend
+- Sales vs Profit Trends
 - Sales by Category
 - Profit by Region
 - Customer Distribution
-- Delivery Type Analysis
-- Pareto Sales Analysis
+- Delivery Analysis
+- Pareto Sales Analysis (80/20 Rule)
 
 ## Key Insights
-
-- Technology category generates the highest sales.
-- West region contributes the highest profit.
-- A small number of product categories contribute most of the sales.
+- Technology category generated the highest revenue
+- West region contributed the highest profit
+- A small percentage of products generated majority of sales
 
 ## Outcome
+Developed an **interactive Retail Customer 360 Dashboard** to support business decision-making.
 
-Interactive dashboard created for business decision making.
+---
+
+# Final Project Outcome
+
+This project demonstrates a complete **Retail Customer 360 Analytics Pipeline**:
+
+- Data Processing using **Python**
+- Data Storage using **PostgreSQL**
+- Customer Behavior Analysis using **RFM, Cohort, and Market Basket Analysis**
+- Business Visualization using **Power BI Dashboards**
