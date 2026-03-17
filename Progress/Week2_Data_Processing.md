@@ -1,27 +1,33 @@
-# Week 2 – Data Cleaning and Database Processing
+# Week 2 – Data Engineering & PostgreSQL Integration
 
 ## Objective
-Prepare the dataset for analysis by cleaning and storing it in PostgreSQL.
+Clean the retail dataset and store structured data in PostgreSQL.
 
-## Activities Performed
+## Tasks Completed
+- Connected Python with PostgreSQL database
+- Extracted retail transaction data using SQL
+- Loaded dataset into Python for processing
+- Cleaned and structured data
 
-- Loaded retail transaction dataset into PostgreSQL.
-- Cleaned the dataset using Python:
-  - Removed missing customer IDs
-  - Converted invoice dates into datetime format
-  - Calculated total sales per transaction.
+## SQL Query Example
 
-## Database Integration
+SELECT customer_id, invoice_date, total_sales
+FROM retail_transactions;
 
-Python was used to connect with PostgreSQL using SQLAlchemy.
 
-Processed data was stored in database tables for further analysis.
+## Data Cleaning Steps
+- Removed missing customer IDs
+- Converted invoice_date to datetime format
+- Verified numeric format for sales values
+- Checked duplicate records
 
-Example table:
+## Data Storage
+Cleaned data stored in PostgreSQL tables.
 
-- customer_rfm
-- transaction_data
+Example table created:
+
+customer_rfm
+
 
 ## Outcome
-
-Cleaned and structured data stored in PostgreSQL database.
+Cleaned dataset successfully stored and prepared for analytics.
