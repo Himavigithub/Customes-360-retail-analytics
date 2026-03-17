@@ -1,36 +1,44 @@
-# Week 1 – Project Setup & Data Understanding
+Objective
 
-## Objective
-Understand the retail dataset and set up the project environment for Customer 360 analysis.
+Understand the retail dataset and set up the development environment for the Customer 360 analysis.
 
-## Activities Performed
+Tools Used
 
-- Selected **Customer 360 Retail Dataset** for analysis.
-- Installed required tools:
-  - Python
-  - PostgreSQL
-  - Power BI
-- Installed Python libraries:
-  - pandas
-  - numpy
-  - mlxtend
-  - sqlalchemy
-- Created a PostgreSQL database for storing retail transaction data.
+Python
 
-## Data Exploration
+PostgreSQL
 
-The dataset includes the following fields:
+Power BI
 
-- Customer ID
-- Invoice Date
-- Product ID
-- Product Category
-- Sales Amount
-- Delivery Type
-- Region
+GitHub
 
-Initial data exploration was performed to understand data types and structure.
+Activities Performed
 
-## Outcome
+• Selected Customer 360 Retail Dataset for the analysis.
+• Installed required Python libraries:
 
-Environment setup completed and dataset ready for analysis.
+pip install pandas numpy mlxtend sqlalchemy psycopg2
+
+• Explored dataset structure to understand columns such as:
+
+customer_id
+
+invoice_date
+
+product_id
+
+total_sales
+
+Initial Data Exploration
+
+Example dataset structure:
+
+customer_id	invoice_date	total_sales
+17850	2010-12-01	15.30
+17850	2010-12-01	20.34
+
+Total records explored: ~397,000 transactions
+
+Outcome
+
+Project environment setup completed and dataset ready for further processing.
